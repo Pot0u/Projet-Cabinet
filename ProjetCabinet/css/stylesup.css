@@ -1,0 +1,61 @@
+/* Reset de la marge et du rembourrage par défaut */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #dc3545; /* Rouge - Vous pouvez changer la couleur selon votre préférence */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c82333; /* Rouge foncé - Vous pouvez ajuster la couleur au survol */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Bleu - Vous pouvez ajuster la couleur des liens */
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
